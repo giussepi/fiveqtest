@@ -1,0 +1,11 @@
+
+
+devotionals models
+  Daily_Devotional: in this model the fields month and day are fields with 
+  choices because I think if we are not going to use the year then we don't
+  need to use a Date Field.
+
+the function import_csv just import the datafrom the csv file, initially I 
+  wrote this funtion in a py file, however I had a problem importing the 
+  devotional app (here I lost several minutes) so I decided to include it 
+  in the models where everything worked. 

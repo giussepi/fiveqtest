@@ -1,0 +1,17 @@
+Goal: Create a simple Django app to manage daily devotionals, and import the supplied CSV file into the database.
+
+Timeline: Return your code by replying to all on this email within 90 minutes.  Return any documentation you wish to provide within the next 30 minutes after your coding is complete.
+
+Deliverables:
+
+1. An original Django application with the following: model.py, admin.py, views.py and urls.py. The view should have a single URL and accept a date and return the matching devotional. The HTML can be very basic.
+2. A Python script to import the CSV content into the database.
+3. Extra Credit 1: Write a view to calculate the the total number of words in the devotionals.
+4. Extra Credit 2: Incorporate Django-tagging into the app: https://github.com/alex/django-taggit
+5. Extra Credit 3: Push into a github.com repo and send Five Q the link.
+
+You have 90 minutes to complete the assignment, and then another 30 minutes to provide an optional write up explaining your decision making process.
+
+Go for it!
+
+https://www.dropbox.com/s/nsvz5miykjfogp9/programming-sample.tab

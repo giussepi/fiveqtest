@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block vocational_title %}
+  {% if obj %}
+    {{obj.title}}
+  {% else %}
+    No vocational related to this date
+  {% endif %}
+{% endblock %}
+
+{% block vocational_body %}{{obj.body|safe}}{% endblock %}
+
