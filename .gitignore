@@ -1,4 +1,8 @@
 *.log
 *.pot
 *.pyc
+*~
+fiveqtest/public/*
+env/*
+:memory
 local_settings.py
